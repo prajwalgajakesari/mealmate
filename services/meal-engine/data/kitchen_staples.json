@@ -1,0 +1,155 @@
+{
+  "description": "Kitchen staples that are assumed always available and should never be added to grocery orders",
+  "staples": [
+    {
+      "name": "salt",
+      "category": "spice",
+      "aliases": ["namak", "sendha namak", "rock salt", "sea salt", "table salt"]
+    },
+    {
+      "name": "turmeric powder",
+      "category": "spice",
+      "aliases": ["haldi", "haldi powder"]
+    },
+    {
+      "name": "red chilli powder",
+      "category": "spice",
+      "aliases": ["lal mirch powder", "mirchi powder", "kashmiri chilli powder"]
+    },
+    {
+      "name": "coriander powder",
+      "category": "spice",
+      "aliases": ["dhaniya powder"]
+    },
+    {
+      "name": "cumin seeds",
+      "category": "spice",
+      "aliases": ["jeera", "zeera"]
+    },
+    {
+      "name": "cumin powder",
+      "category": "spice",
+      "aliases": ["jeera powder"]
+    },
+    {
+      "name": "mustard seeds",
+      "category": "spice",
+      "aliases": ["rai", "sarson"]
+    },
+    {
+      "name": "garam masala",
+      "category": "spice",
+      "aliases": ["garam masala powder"]
+    },
+    {
+      "name": "black pepper",
+      "category": "spice",
+      "aliases": ["kali mirch", "pepper powder"]
+    },
+    {
+      "name": "cooking oil",
+      "category": "oil",
+      "aliases": ["vegetable oil", "sunflower oil", "refined oil", "tel"]
+    },
+    {
+      "name": "mustard oil",
+      "category": "oil",
+      "aliases": ["sarson ka tel"]
+    },
+    {
+      "name": "ghee",
+      "category": "oil",
+      "aliases": ["desi ghee", "clarified butter"]
+    },
+    {
+      "name": "sugar",
+      "category": "sweetener",
+      "aliases": ["cheeni", "shakkar"]
+    },
+    {
+      "name": "tea leaves",
+      "category": "beverage",
+      "aliases": ["chai patti"]
+    },
+    {
+      "name": "asafoetida",
+      "category": "spice",
+      "aliases": ["hing"]
+    },
+    {
+      "name": "bay leaves",
+      "category": "spice",
+      "aliases": ["tej patta"]
+    },
+    {
+      "name": "cloves",
+      "category": "spice",
+      "aliases": ["laung"]
+    },
+    {
+      "name": "cardamom",
+      "category": "spice",
+      "aliases": ["elaichi", "green cardamom", "chhoti elaichi"]
+    },
+    {
+      "name": "cinnamon",
+      "category": "spice",
+      "aliases": ["dalchini"]
+    },
+    {
+      "name": "dried red chillies",
+      "category": "spice",
+      "aliases": ["sabut lal mirch", "whole red chilli"]
+    },
+    {
+      "name": "curry leaves",
+      "category": "spice",
+      "aliases": ["kadi patta", "meetha neem"]
+    },
+    {
+      "name": "water",
+      "category": "basic",
+      "aliases": ["paani"]
+    },
+    {
+      "name": "baking soda",
+      "category": "leavening",
+      "aliases": ["meetha soda"]
+    },
+    {
+      "name": "fennel seeds",
+      "category": "spice",
+      "aliases": ["saunf"]
+    },
+    {
+      "name": "fenugreek seeds",
+      "category": "spice",
+      "aliases": ["methi dana"]
+    },
+    {
+      "name": "sesame seeds",
+      "category": "spice",
+      "aliases": ["til"]
+    },
+    {
+      "name": "ajwain",
+      "category": "spice",
+      "aliases": ["carom seeds", "bishop's weed"]
+    },
+    {
+      "name": "black salt",
+      "category": "spice",
+      "aliases": ["kala namak"]
+    },
+    {
+      "name": "chaat masala",
+      "category": "spice",
+      "aliases": []
+    },
+    {
+      "name": "kitchen king masala",
+      "category": "spice",
+      "aliases": []
+    }
+  ]
+}

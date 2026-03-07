@@ -1,0 +1,1154 @@
+{
+  "description": "Seed data: 30 diverse Indian recipes (vegetarian + non-veg, multiple cuisines) with full nutrition data",
+  "recipes": [
+    {
+      "name": "Poha",
+      "cuisine": "maharashtrian",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Flattened rice tempered with mustard seeds, curry leaves, peanuts, and turmeric",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {"name": "flattened rice (poha)", "quantity": "200g", "category": "grain"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "peanuts", "quantity": "2 tbsp", "category": "protein"},
+        {"name": "green chilli", "quantity": "2", "category": "vegetable"},
+        {"name": "lemon", "quantity": "1", "category": "other"},
+        {"name": "fresh coriander", "quantity": "2 tbsp", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Rinse poha in water and drain. Add salt and turmeric, mix gently.",
+        "Heat oil, add mustard seeds, curry leaves, peanuts. Fry till golden.",
+        "Add chopped onion and green chilli, saute till soft.",
+        "Add poha, mix gently. Cook 2-3 minutes on low heat.",
+        "Squeeze lemon juice, garnish with coriander. Serve hot."
+      ],
+      "instructions_cook": [
+        "Poha ko paani mein dho ke chaan lo. Namak aur haldi milao.",
+        "Kadhai mein tel garam karo, rai, kadi patta, moongphali daalo.",
+        "Pyaaz aur hari mirch daalo, halka bhuno.",
+        "Poha daalo, dheere se milao. 2-3 minute dhimi aag pe pakao.",
+        "Nimboo nichod ke dhaniya se sajao."
+      ],
+      "nutrition": {"calories": 320, "protein_g": 8, "carbs_g": 52, "fat_g": 10, "fiber_g": 3},
+      "tags": ["quick", "light", "traditional"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Masala Dosa",
+      "cuisine": "south_indian",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Crispy rice-lentil crepe filled with spiced potato filling, served with sambar and chutney",
+      "prep_time_min": 20,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "dosa batter", "quantity": "300ml", "category": "grain"},
+        {"name": "potato", "quantity": "3 medium", "category": "vegetable"},
+        {"name": "onion", "quantity": "1 large", "category": "vegetable"},
+        {"name": "green chilli", "quantity": "2", "category": "vegetable"},
+        {"name": "ginger", "quantity": "1 inch", "category": "vegetable"},
+        {"name": "sambar powder", "quantity": "1 tsp", "category": "spice"}
+      ],
+      "instructions_user": [
+        "Boil potatoes, peel and mash coarsely.",
+        "Heat oil, add mustard seeds, urad dal, curry leaves.",
+        "Add onion, green chilli, ginger. Saute till golden.",
+        "Add turmeric, mashed potatoes, salt. Mix well.",
+        "Spread dosa batter on hot tawa, drizzle oil. Cook till crispy.",
+        "Place potato filling, fold and serve with sambar and chutney."
+      ],
+      "instructions_cook": [
+        "Aloo ubaal ke mash karo.",
+        "Tel mein rai, urad dal, kadi patta chhokhao.",
+        "Pyaaz, mirch, adrak daalo, bhuno.",
+        "Haldi, aloo, namak milao.",
+        "Tawa garam karke dosa batter failao, tel lagao, crispy hone do.",
+        "Aloo masala bharo, fold karo."
+      ],
+      "nutrition": {"calories": 450, "protein_g": 12, "carbs_g": 68, "fat_g": 14, "fiber_g": 5},
+      "tags": ["crispy", "filling", "traditional"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Aloo Paratha",
+      "cuisine": "north_indian",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Whole wheat flatbread stuffed with spiced potato filling, served with curd and pickle",
+      "prep_time_min": 20,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {"name": "whole wheat flour", "quantity": "200g", "category": "grain"},
+        {"name": "potato", "quantity": "3 medium", "category": "vegetable"},
+        {"name": "green chilli", "quantity": "2", "category": "vegetable"},
+        {"name": "curd", "quantity": "100g", "category": "dairy"},
+        {"name": "pickle", "quantity": "2 tbsp", "category": "other"},
+        {"name": "butter", "quantity": "2 tbsp", "category": "dairy"}
+      ],
+      "instructions_user": [
+        "Knead atta with water and salt into smooth dough. Rest 15 min.",
+        "Boil potatoes, mash. Mix with green chilli, coriander, spices.",
+        "Make small dough balls, roll, stuff with potato mixture, seal and roll again.",
+        "Cook on hot tawa with ghee/butter till golden brown on both sides.",
+        "Serve hot with curd, pickle, and butter."
+      ],
+      "instructions_cook": [
+        "Aata gundho paani aur namak se. 15 min rakhne do.",
+        "Aloo ubaal ke mash karo. Mirch, dhaniya, masale milao.",
+        "Gole bana ke roll karo, aloo bharo, band karke phir se belo.",
+        "Garam tawa pe ghee laga ke dono taraf golden hone tak sekho.",
+        "Dahi, achaar aur makhan ke saath serve karo."
+      ],
+      "nutrition": {"calories": 480, "protein_g": 12, "carbs_g": 62, "fat_g": 20, "fiber_g": 6},
+      "tags": ["hearty", "filling", "traditional"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Upma",
+      "cuisine": "south_indian",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Savory semolina porridge with vegetables and tempered spices",
+      "prep_time_min": 5,
+      "cook_time_min": 12,
+      "servings": 2,
+      "ingredients": [
+        {"name": "semolina (rava/sooji)", "quantity": "150g", "category": "grain"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "carrot", "quantity": "1 small", "category": "vegetable"},
+        {"name": "green peas", "quantity": "50g", "category": "vegetable"},
+        {"name": "cashews", "quantity": "10", "category": "other"},
+        {"name": "lemon", "quantity": "1", "category": "other"}
+      ],
+      "instructions_user": [
+        "Dry roast semolina until fragrant. Set aside.",
+        "Heat oil, add mustard seeds, urad dal, curry leaves, cashews.",
+        "Add onion, carrot, peas. Saute 3-4 minutes.",
+        "Add water (2:1 ratio), salt. Bring to boil.",
+        "Slowly add roasted semolina, stirring continuously to avoid lumps.",
+        "Cook 3-4 minutes on low heat. Add lemon juice. Serve hot."
+      ],
+      "instructions_cook": [
+        "Sooji ko sukhi kadhai mein bhuno jab tak khushbu aaye.",
+        "Tel mein rai, urad dal, kadi patta, kaju chhokhao.",
+        "Pyaaz, gajar, matar daalo. 3-4 min bhuno.",
+        "Paani daalo (sooji se dugna), namak. Ubalne do.",
+        "Dheere dheere bhuni sooji daalo, lagaatar hilaate raho.",
+        "3-4 min pakao. Nimboo nichodo."
+      ],
+      "nutrition": {"calories": 310, "protein_g": 9, "carbs_g": 48, "fat_g": 10, "fiber_g": 4},
+      "tags": ["quick", "light", "healthy"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Egg Bhurji",
+      "cuisine": "north_indian",
+      "meal_type": "breakfast",
+      "diet_type": "eggetarian",
+      "description": "Indian-style spicy scrambled eggs with onion, tomato, and green chillies",
+      "prep_time_min": 5,
+      "cook_time_min": 8,
+      "servings": 2,
+      "ingredients": [
+        {"name": "eggs", "quantity": "4", "category": "protein"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "green chilli", "quantity": "2", "category": "vegetable"},
+        {"name": "bread", "quantity": "4 slices", "category": "grain"},
+        {"name": "fresh coriander", "quantity": "2 tbsp", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Beat eggs with salt and pepper.",
+        "Heat oil, add cumin seeds. Add chopped onion, saute till soft.",
+        "Add green chilli, tomato. Cook till tomato is soft.",
+        "Add turmeric, chilli powder. Pour in beaten eggs.",
+        "Scramble on medium heat till eggs are cooked but still soft.",
+        "Garnish with coriander. Serve with toast or pav."
+      ],
+      "instructions_cook": [
+        "Ande phenko namak mirch ke saath.",
+        "Tel mein jeera, pyaaz bhuno.",
+        "Mirch, tamatar daalo, pakao jab tak naram ho.",
+        "Haldi, mirch daalo. Ande daalo.",
+        "Ande ko bhuno jab tak pak jaaye par soft rahe.",
+        "Dhaniya se sajao."
+      ],
+      "nutrition": {"calories": 380, "protein_g": 24, "carbs_g": 30, "fat_g": 18, "fiber_g": 3},
+      "tags": ["high-protein", "quick", "spicy"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Rajma Chawal",
+      "cuisine": "north_indian",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Kidney bean curry in rich tomato gravy served over steamed basmati rice",
+      "prep_time_min": 15,
+      "cook_time_min": 40,
+      "servings": 2,
+      "ingredients": [
+        {"name": "rajma (kidney beans)", "quantity": "200g", "category": "protein"},
+        {"name": "basmati rice", "quantity": "200g", "category": "grain"},
+        {"name": "onion", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "3 medium", "category": "vegetable"},
+        {"name": "ginger-garlic paste", "quantity": "1 tbsp", "category": "spice"},
+        {"name": "fresh coriander", "quantity": "2 tbsp", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Soak rajma overnight. Pressure cook with salt till soft (5-6 whistles).",
+        "Heat oil, add cumin seeds. Add onions, cook till golden.",
+        "Add ginger-garlic paste, cook 1 minute.",
+        "Add pureed tomatoes, turmeric, chilli powder, coriander powder. Cook 8-10 min.",
+        "Add cooked rajma with water. Simmer 15-20 min till thick.",
+        "Mash a few beans for thickness. Add garam masala.",
+        "Serve over steamed basmati rice, garnish with coriander."
+      ],
+      "instructions_cook": [
+        "Rajma raat bhar bhigo ke pressure cooker mein 5-6 seeti do.",
+        "Tel mein jeera, pyaaz bhuno golden hone tak.",
+        "Adrak-lahsun paste daalo, 1 min pakao.",
+        "Tamatar pees ke daalo, haldi, mirch, dhaniya powder. 8-10 min pakao.",
+        "Rajma paani ke saath daalo. 15-20 min dheemi aag pe pakao.",
+        "Kuch rajma maslo gaadha karne ke liye. Garam masala daalo.",
+        "Chawal ke upar serve karo."
+      ],
+      "nutrition": {"calories": 520, "protein_g": 22, "carbs_g": 82, "fat_g": 10, "fiber_g": 14},
+      "tags": ["comfort-food", "protein-rich", "traditional"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Chole Bhature",
+      "cuisine": "punjabi",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Spicy chickpea curry with deep-fried puffed bread",
+      "prep_time_min": 20,
+      "cook_time_min": 35,
+      "servings": 2,
+      "ingredients": [
+        {"name": "chickpeas (chana)", "quantity": "250g", "category": "protein"},
+        {"name": "maida (all-purpose flour)", "quantity": "200g", "category": "grain"},
+        {"name": "onion", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "3 medium", "category": "vegetable"},
+        {"name": "tea bags", "quantity": "2", "category": "other"},
+        {"name": "curd", "quantity": "50g", "category": "dairy"}
+      ],
+      "instructions_user": [
+        "Soak chickpeas overnight. Boil with tea bags for dark color. Drain.",
+        "Knead maida with curd, oil, salt into soft dough. Rest 2 hours.",
+        "For chole: saute onions, add ginger-garlic paste, tomato puree.",
+        "Add chole masala, turmeric, chilli powder. Cook 5 min.",
+        "Add boiled chickpeas with some water. Simmer 20 min.",
+        "Roll bhature, deep fry till puffed and golden.",
+        "Serve hot with pickled onion and green chutney."
+      ],
+      "instructions_cook": [
+        "Chane raat bhar bhigo ke tea bag ke saath ubalo.",
+        "Maida ko dahi, tel, namak se gundho. 2 ghante rakhne do.",
+        "Pyaaz bhuno, adrak-lahsun, tamatar daalo.",
+        "Chole masala, haldi, mirch daalo. 5 min pakao.",
+        "Ubale chane paani ke saath daalo. 20 min pakao.",
+        "Bhature belo aur deep fry karo jab tak phoole.",
+        "Garam garam serve karo."
+      ],
+      "nutrition": {"calories": 650, "protein_g": 20, "carbs_g": 78, "fat_g": 28, "fiber_g": 12},
+      "tags": ["indulgent", "heavy", "traditional"],
+      "difficulty": "hard"
+    },
+    {
+      "name": "Sambar Rice",
+      "cuisine": "south_indian",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Tangy lentil-vegetable stew served over steamed rice",
+      "prep_time_min": 15,
+      "cook_time_min": 30,
+      "servings": 2,
+      "ingredients": [
+        {"name": "toor dal", "quantity": "150g", "category": "protein"},
+        {"name": "rice", "quantity": "200g", "category": "grain"},
+        {"name": "drumstick", "quantity": "1", "category": "vegetable"},
+        {"name": "brinjal", "quantity": "1 small", "category": "vegetable"},
+        {"name": "tamarind", "quantity": "1 tbsp", "category": "other"},
+        {"name": "sambar powder", "quantity": "2 tbsp", "category": "spice"}
+      ],
+      "instructions_user": [
+        "Cook toor dal in pressure cooker till soft (3-4 whistles).",
+        "Soak tamarind in warm water, extract pulp.",
+        "Cut vegetables into pieces. Boil till tender.",
+        "Add cooked dal, tamarind water, sambar powder, salt.",
+        "Temper with mustard seeds, curry leaves, hing in oil.",
+        "Pour tempering into sambar. Simmer 10 min.",
+        "Serve over steamed rice."
+      ],
+      "instructions_cook": [
+        "Toor dal ko cooker mein 3-4 seeti do.",
+        "Imli ko garam paani mein bhigo ke ras nikalo.",
+        "Sabziyan kaat ke ubalo.",
+        "Dal, imli ka paani, sambar powder, namak daalo.",
+        "Rai, kadi patta, hing ka tadka lagao.",
+        "Tadka sambar mein daalo. 10 min pakao.",
+        "Chawal ke saath serve karo."
+      ],
+      "nutrition": {"calories": 460, "protein_g": 18, "carbs_g": 76, "fat_g": 8, "fiber_g": 10},
+      "tags": ["comfort-food", "healthy", "traditional"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Paneer Butter Masala",
+      "cuisine": "north_indian",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Cottage cheese cubes in rich, creamy tomato-butter gravy",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 2,
+      "ingredients": [
+        {"name": "paneer", "quantity": "250g", "category": "protein"},
+        {"name": "tomato", "quantity": "4 medium", "category": "vegetable"},
+        {"name": "cashews", "quantity": "10", "category": "other"},
+        {"name": "butter", "quantity": "3 tbsp", "category": "dairy"},
+        {"name": "cream", "quantity": "50ml", "category": "dairy"},
+        {"name": "naan/roti", "quantity": "4", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Blanch tomatoes and cashews. Blend into smooth paste.",
+        "Heat butter, add paste. Cook 10-12 min till oil separates.",
+        "Add kasuri methi, garam masala, chilli powder, sugar.",
+        "Add cubed paneer, cream. Simmer 5 minutes.",
+        "Garnish with cream and coriander. Serve with naan."
+      ],
+      "instructions_cook": [
+        "Tamatar aur kaju ko ubaal ke pees lo.",
+        "Makhan mein paste daalo. 10-12 min pakao jab tak tel chhode.",
+        "Kasuri methi, garam masala, mirch, cheeni daalo.",
+        "Paneer ke tukde aur cream daalo. 5 min pakao.",
+        "Cream aur dhaniya se sajao. Naan ke saath do."
+      ],
+      "nutrition": {"calories": 580, "protein_g": 24, "carbs_g": 35, "fat_g": 40, "fiber_g": 4},
+      "tags": ["rich", "creamy", "restaurant-style"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Chicken Biryani",
+      "cuisine": "hyderabadi",
+      "meal_type": "lunch",
+      "diet_type": "non_vegetarian",
+      "description": "Fragrant layered rice with marinated chicken, saffron, and fried onions",
+      "prep_time_min": 30,
+      "cook_time_min": 45,
+      "servings": 2,
+      "ingredients": [
+        {"name": "chicken", "quantity": "500g", "category": "protein"},
+        {"name": "basmati rice", "quantity": "300g", "category": "grain"},
+        {"name": "onion", "quantity": "3 large", "category": "vegetable"},
+        {"name": "curd", "quantity": "100g", "category": "dairy"},
+        {"name": "saffron", "quantity": "pinch", "category": "spice"},
+        {"name": "mint leaves", "quantity": "1 bunch", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Marinate chicken with curd, ginger-garlic paste, biryani masala, chilli. Rest 1 hour.",
+        "Soak rice 30 min. Par-boil with whole spices till 70% done.",
+        "Deep fry sliced onions till dark golden (birista).",
+        "Layer: marinated chicken, then rice, then birista, mint, saffron milk.",
+        "Seal pot with dough. Cook on dum (low heat) 25-30 min.",
+        "Open, gently mix. Serve with raita."
+      ],
+      "instructions_cook": [
+        "Chicken ko dahi, adrak-lahsun, biryani masala mein 1 ghanta marinate karo.",
+        "Chawal bhigo ke whole masale ke saath 70% ubalo.",
+        "Pyaaz ko barfee kaat ke deep fry karo golden hone tak.",
+        "Layer lagao: chicken, chawal, birista, pudina, kesar wala doodh.",
+        "Bartan ko aate se seal karo. 25-30 min dum pe pakao.",
+        "Kholo, dheere se milao. Raita ke saath do."
+      ],
+      "nutrition": {"calories": 680, "protein_g": 38, "carbs_g": 72, "fat_g": 24, "fiber_g": 3},
+      "tags": ["festive", "elaborate", "aromatic"],
+      "difficulty": "hard"
+    },
+    {
+      "name": "Dal Tadka",
+      "cuisine": "north_indian",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Yellow lentils tempered with cumin, garlic, and dried red chillies",
+      "prep_time_min": 10,
+      "cook_time_min": 25,
+      "servings": 2,
+      "ingredients": [
+        {"name": "toor dal", "quantity": "150g", "category": "protein"},
+        {"name": "tomato", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "garlic", "quantity": "4 cloves", "category": "vegetable"},
+        {"name": "rice", "quantity": "200g", "category": "grain"},
+        {"name": "lemon", "quantity": "1", "category": "other"},
+        {"name": "fresh coriander", "quantity": "2 tbsp", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Wash dal and pressure cook with turmeric, salt, and water (3 whistles).",
+        "Mash dal well. Add chopped tomato, cook 5 min.",
+        "For tadka: heat ghee, add cumin, garlic, dried red chillies.",
+        "Add hing, pour sizzling tadka over dal.",
+        "Squeeze lemon, garnish with coriander.",
+        "Serve with steamed rice or roti."
+      ],
+      "instructions_cook": [
+        "Dal dho ke cooker mein haldi, namak, paani ke saath 3 seeti do.",
+        "Dal mash karo. Tamatar daalo, 5 min pakao.",
+        "Tadke ke liye: ghee mein jeera, lehsun, sabut lal mirch daalo.",
+        "Hing daalo, chhinchhinata tadka dal pe daalo.",
+        "Nimboo nichodo, dhaniya se sajao.",
+        "Chawal ya roti ke saath do."
+      ],
+      "nutrition": {"calories": 420, "protein_g": 18, "carbs_g": 68, "fat_g": 8, "fiber_g": 8},
+      "tags": ["comfort-food", "everyday", "protein-rich"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Veg Pulao",
+      "cuisine": "north_indian",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Fragrant basmati rice cooked with mixed vegetables and whole spices",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "basmati rice", "quantity": "200g", "category": "grain"},
+        {"name": "mixed vegetables", "quantity": "200g", "category": "vegetable"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "mint leaves", "quantity": "1 tbsp", "category": "vegetable"},
+        {"name": "raita", "quantity": "150g", "category": "dairy"},
+        {"name": "whole spices (bay leaf, cloves, cardamom)", "quantity": "as needed", "category": "spice"}
+      ],
+      "instructions_user": [
+        "Soak rice for 30 min. Drain.",
+        "Heat ghee, add whole spices (bay leaf, cloves, cardamom, cinnamon).",
+        "Add sliced onion, cook till light golden.",
+        "Add mixed vegetables, cook 2-3 min.",
+        "Add rice, salt, mint. Add water (1.5:1 ratio).",
+        "Cover and cook on low heat till rice is done.",
+        "Serve with raita."
+      ],
+      "instructions_cook": [
+        "Chawal 30 min bhigo ke chaan lo.",
+        "Ghee mein tej patta, laung, elaichi, dalchini daalo.",
+        "Pyaaz bhuno halka golden hone tak.",
+        "Sabziyan daalo, 2-3 min bhuno.",
+        "Chawal, namak, pudina daalo. Paani daalo (1.5 guna).",
+        "Dhak ke dheemi aag pe pakao jab tak chawal ho jaaye.",
+        "Raita ke saath serve karo."
+      ],
+      "nutrition": {"calories": 380, "protein_g": 10, "carbs_g": 62, "fat_g": 10, "fiber_g": 5},
+      "tags": ["one-pot", "aromatic", "light"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Fish Curry (Goan)",
+      "cuisine": "kerala",
+      "meal_type": "lunch",
+      "diet_type": "non_vegetarian",
+      "description": "Tangy coconut-based fish curry with kokum and Goan spices",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "fish (pomfret/surmai)", "quantity": "400g", "category": "protein"},
+        {"name": "coconut milk", "quantity": "200ml", "category": "other"},
+        {"name": "kokum", "quantity": "4-5 pieces", "category": "other"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "rice", "quantity": "200g", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Clean and cut fish. Marinate with salt and turmeric.",
+        "Grind coconut, coriander seeds, chillies, tamarind into paste.",
+        "Heat oil, add onion, cook till soft.",
+        "Add ground paste, tomato. Cook 5 min.",
+        "Add coconut milk, kokum, water. Bring to simmer.",
+        "Add fish gently. Cook 8-10 min without stirring much.",
+        "Serve with steamed rice."
+      ],
+      "instructions_cook": [
+        "Machli saaf karke namak haldi lagao.",
+        "Nariyal, dhaniya, mirch, imli ko pees lo.",
+        "Tel mein pyaaz bhuno.",
+        "Pisa masala, tamatar daalo. 5 min pakao.",
+        "Nariyal ka doodh, kokum, paani daalo. Ubalne do.",
+        "Machli dheere se daalo. 8-10 min pakao, zyada hilao mat.",
+        "Chawal ke saath do."
+      ],
+      "nutrition": {"calories": 480, "protein_g": 35, "carbs_g": 45, "fat_g": 18, "fiber_g": 3},
+      "tags": ["coastal", "tangy", "protein-rich"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Mediterranean Quinoa Bowl",
+      "cuisine": "mediterranean",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Quinoa bowl with hummus, roasted vegetables, feta, and tahini dressing",
+      "prep_time_min": 15,
+      "cook_time_min": 25,
+      "servings": 2,
+      "ingredients": [
+        {"name": "quinoa", "quantity": "150g", "category": "grain"},
+        {"name": "chickpeas (canned)", "quantity": "200g", "category": "protein"},
+        {"name": "cucumber", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "cherry tomatoes", "quantity": "100g", "category": "vegetable"},
+        {"name": "feta cheese", "quantity": "50g", "category": "dairy"},
+        {"name": "hummus", "quantity": "100g", "category": "protein"}
+      ],
+      "instructions_user": [
+        "Cook quinoa in salted water (2:1 ratio) for 15 min. Fluff with fork.",
+        "Roast chickpeas with olive oil, cumin, paprika at 200C for 20 min.",
+        "Dice cucumber and halve cherry tomatoes.",
+        "Make tahini dressing: tahini, lemon juice, garlic, water, salt.",
+        "Assemble bowls: quinoa base, roasted chickpeas, veggies, feta.",
+        "Drizzle tahini dressing and serve."
+      ],
+      "instructions_cook": [
+        "Quinoa ko namkeen paani mein 15 min pakao.",
+        "Chickpeas ko olive oil, jeera, paprika ke saath oven mein 20 min roast karo.",
+        "Kheera kaat lo, tamatar aadhe karo.",
+        "Tahini dressing banao: tahini, nimboo, lehsun, paani, namak.",
+        "Bowl mein quinoa, roasted chickpeas, sabzi, feta sajao.",
+        "Dressing daal ke serve karo."
+      ],
+      "nutrition": {"calories": 450, "protein_g": 20, "carbs_g": 52, "fat_g": 18, "fiber_g": 10},
+      "tags": ["healthy", "high-fiber", "protein-rich"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Tofu Stir Fry with Noodles",
+      "cuisine": "asian",
+      "meal_type": "lunch",
+      "diet_type": "vegan",
+      "description": "Crispy tofu with stir-fried vegetables and soy-ginger noodles",
+      "prep_time_min": 15,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {"name": "tofu (firm)", "quantity": "200g", "category": "protein"},
+        {"name": "noodles (hakka/udon)", "quantity": "200g", "category": "grain"},
+        {"name": "bell pepper", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "broccoli", "quantity": "100g", "category": "vegetable"},
+        {"name": "soy sauce", "quantity": "2 tbsp", "category": "other"},
+        {"name": "ginger", "quantity": "1 inch", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Press tofu, cube it. Pan-fry till golden and crispy.",
+        "Cook noodles as per package. Drain and toss with sesame oil.",
+        "Stir-fry sliced bell pepper, broccoli, carrot in hot wok.",
+        "Add ginger, garlic. Toss 1 min.",
+        "Add soy sauce, chilli sauce, vinegar. Add noodles and tofu.",
+        "Toss everything together. Serve hot."
+      ],
+      "instructions_cook": [
+        "Tofu daba ke paani nikalo, tukde karo. Pan mein crispy bhuno.",
+        "Noodles ubaal ke sesame oil mein milao.",
+        "Shimla mirch, broccoli kadhai mein tez aag pe bhuno.",
+        "Adrak, lehsun daalo. 1 min bhuno.",
+        "Soy sauce, chilli sauce, vinegar daalo. Noodles aur tofu milao.",
+        "Sab achhe se milao. Garam serve karo."
+      ],
+      "nutrition": {"calories": 420, "protein_g": 22, "carbs_g": 48, "fat_g": 16, "fiber_g": 6},
+      "tags": ["quick", "fusion", "vegan"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Palak Paneer",
+      "cuisine": "north_indian",
+      "meal_type": "dinner",
+      "diet_type": "vegetarian",
+      "description": "Cottage cheese cubes in a smooth, creamy spinach gravy",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "paneer", "quantity": "200g", "category": "protein"},
+        {"name": "spinach (palak)", "quantity": "300g", "category": "vegetable"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "cream", "quantity": "2 tbsp", "category": "dairy"},
+        {"name": "roti/naan", "quantity": "4", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Blanch spinach in boiling water 2 min. Transfer to ice water. Blend smooth.",
+        "Heat oil, add cumin seeds, onion. Cook till golden.",
+        "Add ginger-garlic paste, tomato. Cook till soft.",
+        "Add spinach puree, salt, garam masala. Simmer 5 min.",
+        "Add paneer cubes and cream. Cook 3-4 min.",
+        "Serve with roti or naan."
+      ],
+      "instructions_cook": [
+        "Palak ko 2 min ubaal ke thande paani mein daalo. Pees lo.",
+        "Tel mein jeera, pyaaz bhuno golden hone tak.",
+        "Adrak-lahsun, tamatar daalo. Naram hone tak pakao.",
+        "Palak puree, namak, garam masala daalo. 5 min pakao.",
+        "Paneer ke tukde aur cream daalo. 3-4 min pakao.",
+        "Roti ya naan ke saath do."
+      ],
+      "nutrition": {"calories": 420, "protein_g": 22, "carbs_g": 28, "fat_g": 26, "fiber_g": 6},
+      "tags": ["iron-rich", "healthy", "popular"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Moong Dal Khichdi",
+      "cuisine": "gujarati",
+      "meal_type": "dinner",
+      "diet_type": "vegetarian",
+      "description": "Comforting one-pot rice and lentil dish with ghee and papad",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "rice", "quantity": "150g", "category": "grain"},
+        {"name": "moong dal", "quantity": "100g", "category": "protein"},
+        {"name": "ghee", "quantity": "2 tbsp", "category": "dairy"},
+        {"name": "papad", "quantity": "4", "category": "other"},
+        {"name": "curd", "quantity": "100g", "category": "dairy"},
+        {"name": "pickle", "quantity": "2 tbsp", "category": "other"}
+      ],
+      "instructions_user": [
+        "Wash rice and moong dal together.",
+        "Pressure cook with turmeric, salt, water (3:1 ratio) for 3 whistles.",
+        "Heat ghee, add cumin seeds, hing, dried red chilli.",
+        "Pour tadka over khichdi. Mix gently.",
+        "Roast or fry papad.",
+        "Serve khichdi with ghee on top, curd, papad, and pickle."
+      ],
+      "instructions_cook": [
+        "Chawal aur moong dal dho lo.",
+        "Cooker mein haldi, namak, paani (3 guna) ke saath 3 seeti do.",
+        "Ghee mein jeera, hing, sabut lal mirch ka tadka lagao.",
+        "Tadka khichdi pe daalo. Dheere se milao.",
+        "Papad bhuno ya talo.",
+        "Ghee, dahi, papad, achaar ke saath serve karo."
+      ],
+      "nutrition": {"calories": 380, "protein_g": 14, "carbs_g": 56, "fat_g": 12, "fiber_g": 6},
+      "tags": ["comfort-food", "light", "digestive"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Butter Chicken",
+      "cuisine": "punjabi",
+      "meal_type": "dinner",
+      "diet_type": "non_vegetarian",
+      "description": "Tender chicken in a rich, buttery tomato-cream sauce",
+      "prep_time_min": 20,
+      "cook_time_min": 30,
+      "servings": 2,
+      "ingredients": [
+        {"name": "chicken (boneless)", "quantity": "500g", "category": "protein"},
+        {"name": "tomato", "quantity": "4 medium", "category": "vegetable"},
+        {"name": "butter", "quantity": "4 tbsp", "category": "dairy"},
+        {"name": "cream", "quantity": "100ml", "category": "dairy"},
+        {"name": "cashews", "quantity": "15", "category": "other"},
+        {"name": "naan", "quantity": "4", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Marinate chicken with yogurt, ginger-garlic paste, chilli, salt. Rest 1 hour.",
+        "Grill or pan-fry marinated chicken till charred. Set aside.",
+        "Blanch tomatoes and cashews. Blend smooth.",
+        "Melt butter, add paste. Cook 15 min till oil separates.",
+        "Add kasuri methi, garam masala, sugar, salt.",
+        "Add chicken, cream. Simmer 10 min.",
+        "Serve with butter naan."
+      ],
+      "instructions_cook": [
+        "Chicken ko dahi, adrak-lahsun, mirch, namak mein 1 ghanta marinate karo.",
+        "Marinated chicken ko grill ya pan mein bhuno.",
+        "Tamatar aur kaju ubaal ke pees lo.",
+        "Makhan mein paste daalo. 15 min pakao.",
+        "Kasuri methi, garam masala, cheeni, namak daalo.",
+        "Chicken, cream daalo. 10 min pakao.",
+        "Butter naan ke saath do."
+      ],
+      "nutrition": {"calories": 620, "protein_g": 42, "carbs_g": 30, "fat_g": 38, "fiber_g": 3},
+      "tags": ["rich", "indulgent", "restaurant-style"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Baingan Bharta",
+      "cuisine": "north_indian",
+      "meal_type": "dinner",
+      "diet_type": "vegetarian",
+      "description": "Smoky roasted eggplant mash cooked with onions, tomatoes, and spices",
+      "prep_time_min": 10,
+      "cook_time_min": 25,
+      "servings": 2,
+      "ingredients": [
+        {"name": "brinjal (large)", "quantity": "1", "category": "vegetable"},
+        {"name": "onion", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "green chilli", "quantity": "2", "category": "vegetable"},
+        {"name": "roti", "quantity": "4", "category": "grain"},
+        {"name": "fresh coriander", "quantity": "2 tbsp", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Roast whole brinjal on direct flame till charred and soft.",
+        "Peel skin, mash the flesh.",
+        "Heat oil, add cumin seeds, chopped onion. Cook till golden.",
+        "Add green chilli, tomato. Cook till mushy.",
+        "Add mashed brinjal, salt, chilli powder, coriander powder.",
+        "Cook 8-10 min. Garnish with coriander. Serve with roti."
+      ],
+      "instructions_cook": [
+        "Baingan ko seedhi aag pe bhuno jab tak jal jaaye aur naram ho.",
+        "Chhilka utaar ke mash karo.",
+        "Tel mein jeera, pyaaz bhuno golden hone tak.",
+        "Hari mirch, tamatar daalo. Gal ne tak pakao.",
+        "Mashed baingan, namak, mirch, dhaniya powder daalo.",
+        "8-10 min pakao. Dhaniya se sajao. Roti ke saath do."
+      ],
+      "nutrition": {"calories": 280, "protein_g": 8, "carbs_g": 42, "fat_g": 10, "fiber_g": 8},
+      "tags": ["smoky", "healthy", "traditional"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Vegetable Thai Green Curry",
+      "cuisine": "asian",
+      "meal_type": "dinner",
+      "diet_type": "vegan",
+      "description": "Mixed vegetables in fragrant Thai green curry coconut sauce with jasmine rice",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "coconut milk", "quantity": "400ml", "category": "other"},
+        {"name": "Thai green curry paste", "quantity": "3 tbsp", "category": "spice"},
+        {"name": "tofu", "quantity": "150g", "category": "protein"},
+        {"name": "bell pepper", "quantity": "1", "category": "vegetable"},
+        {"name": "baby corn", "quantity": "100g", "category": "vegetable"},
+        {"name": "jasmine rice", "quantity": "200g", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Cook jasmine rice as per package instructions.",
+        "Heat oil in wok. Add green curry paste, fry 1 min.",
+        "Add coconut milk (half). Cook till slightly reduced.",
+        "Add cubed tofu, sliced bell pepper, baby corn.",
+        "Add remaining coconut milk, soy sauce, sugar, basil.",
+        "Simmer 10 min. Serve over jasmine rice."
+      ],
+      "instructions_cook": [
+        "Chawal pakao.",
+        "Kadhai mein tel garam karo. Green curry paste 1 min bhuno.",
+        "Aadha nariyal doodh daalo. Thoda gaadhaa hone do.",
+        "Tofu, shimla mirch, baby corn daalo.",
+        "Baaki nariyal doodh, soy sauce, cheeni, basil daalo.",
+        "10 min pakao. Chawal pe serve karo."
+      ],
+      "nutrition": {"calories": 480, "protein_g": 16, "carbs_g": 52, "fat_g": 24, "fiber_g": 5},
+      "tags": ["fusion", "aromatic", "creamy"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Chicken Tikka",
+      "cuisine": "north_indian",
+      "meal_type": "dinner",
+      "diet_type": "non_vegetarian",
+      "description": "Yogurt-marinated chicken pieces grilled till charred and smoky",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "chicken breast (boneless)", "quantity": "400g", "category": "protein"},
+        {"name": "curd (thick)", "quantity": "100g", "category": "dairy"},
+        {"name": "bell pepper", "quantity": "1", "category": "vegetable"},
+        {"name": "onion", "quantity": "1 large", "category": "vegetable"},
+        {"name": "lemon", "quantity": "1", "category": "other"},
+        {"name": "mint chutney", "quantity": "50g", "category": "other"}
+      ],
+      "instructions_user": [
+        "Cut chicken into tikka-sized pieces.",
+        "Marinate with curd, ginger-garlic paste, tikka masala, lemon juice, oil, salt. Rest 2 hrs.",
+        "Thread onto skewers with bell pepper and onion chunks.",
+        "Grill or bake at 220C for 15-20 min, turning once.",
+        "Squeeze lemon. Serve with mint chutney, onion rings, green salad."
+      ],
+      "instructions_cook": [
+        "Chicken ke tukde karo.",
+        "Dahi, adrak-lahsun, tikka masala, nimboo, tel, namak mein 2 ghante marinate karo.",
+        "Seekh pe lagao shimla mirch aur pyaaz ke saath.",
+        "Grill ya oven mein 220C pe 15-20 min pakao, palat ke.",
+        "Nimboo nichodo. Chutney, pyaaz ke saath do."
+      ],
+      "nutrition": {"calories": 350, "protein_g": 40, "carbs_g": 12, "fat_g": 16, "fiber_g": 2},
+      "tags": ["high-protein", "grilled", "low-carb"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Methi Thepla",
+      "cuisine": "gujarati",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Fenugreek-spiced flatbread from Gujarat, perfect for travel or breakfast",
+      "prep_time_min": 15,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {"name": "whole wheat flour", "quantity": "200g", "category": "grain"},
+        {"name": "fresh methi leaves", "quantity": "100g", "category": "vegetable"},
+        {"name": "curd", "quantity": "50g", "category": "dairy"},
+        {"name": "jaggery", "quantity": "1 tsp", "category": "sweetener"},
+        {"name": "pickle", "quantity": "2 tbsp", "category": "other"},
+        {"name": "curd (for serving)", "quantity": "100g", "category": "dairy"}
+      ],
+      "instructions_user": [
+        "Wash and finely chop methi leaves.",
+        "Mix wheat flour, methi, curd, turmeric, chilli, jaggery, salt, oil.",
+        "Knead into soft dough with water. Rest 15 min.",
+        "Roll into thin rounds.",
+        "Cook on tawa with oil till golden spots on both sides.",
+        "Serve with curd and pickle."
+      ],
+      "instructions_cook": [
+        "Methi dho ke bareek kaato.",
+        "Aata, methi, dahi, haldi, mirch, gur, namak, tel milao.",
+        "Paani se naram aata gundho. 15 min rakhne do.",
+        "Patli roti belo.",
+        "Tawa pe tel laga ke dono taraf golden hone tak sekho.",
+        "Dahi aur achaar ke saath do."
+      ],
+      "nutrition": {"calories": 340, "protein_g": 10, "carbs_g": 48, "fat_g": 12, "fiber_g": 5},
+      "tags": ["iron-rich", "travel-friendly", "gujarati"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Idli Sambar",
+      "cuisine": "south_indian",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Steamed rice-lentil cakes served with sambar and coconut chutney",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {"name": "idli batter", "quantity": "300ml", "category": "grain"},
+        {"name": "toor dal", "quantity": "100g", "category": "protein"},
+        {"name": "drumstick", "quantity": "1", "category": "vegetable"},
+        {"name": "coconut (fresh)", "quantity": "50g", "category": "other"},
+        {"name": "sambar powder", "quantity": "2 tbsp", "category": "spice"},
+        {"name": "tamarind", "quantity": "1 tbsp", "category": "other"}
+      ],
+      "instructions_user": [
+        "Grease idli moulds. Pour batter. Steam 10-12 min.",
+        "For sambar: cook toor dal. Add tamarind water, vegetables, sambar powder.",
+        "Temper with mustard seeds, curry leaves, hing.",
+        "For chutney: grind coconut, green chilli, ginger with water.",
+        "Serve idlis with hot sambar and coconut chutney."
+      ],
+      "instructions_cook": [
+        "Idli saanche mein tel lagao. Batter daalo. 10-12 min steam karo.",
+        "Sambar ke liye: dal pakao. Imli ka paani, sabzi, sambar powder daalo.",
+        "Rai, kadi patta, hing ka tadka lagao.",
+        "Chutney ke liye: nariyal, mirch, adrak pees lo.",
+        "Garam sambar aur chutney ke saath idli do."
+      ],
+      "nutrition": {"calories": 350, "protein_g": 14, "carbs_g": 56, "fat_g": 8, "fiber_g": 6},
+      "tags": ["steamed", "healthy", "traditional"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Kadai Paneer",
+      "cuisine": "north_indian",
+      "meal_type": "dinner",
+      "diet_type": "vegetarian",
+      "description": "Paneer cooked with bell peppers in a spicy kadai masala gravy",
+      "prep_time_min": 15,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "paneer", "quantity": "250g", "category": "protein"},
+        {"name": "bell pepper (capsicum)", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "3 medium", "category": "vegetable"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "kadai masala", "quantity": "2 tbsp", "category": "spice"},
+        {"name": "roti", "quantity": "4", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Dry roast coriander seeds and dried red chillies. Coarsely grind (kadai masala).",
+        "Puree tomatoes. Cook in oil till thick and oil separates.",
+        "Add kadai masala, salt, turmeric. Cook 2 min.",
+        "Add cubed paneer and bell pepper strips.",
+        "Cook 5-7 min on medium heat.",
+        "Garnish with coriander and ginger juliennes. Serve with roti."
+      ],
+      "instructions_cook": [
+        "Dhaniya aur sabut lal mirch sukhi kadhai mein bhuno. Mota pees lo.",
+        "Tamatar pees ke tel mein pakao jab tak gaadha ho.",
+        "Kadai masala, namak, haldi daalo. 2 min pakao.",
+        "Paneer tukde aur shimla mirch ki strips daalo.",
+        "5-7 min madhyam aag pe pakao.",
+        "Dhaniya aur adrak ke patli strips se sajao. Roti ke saath do."
+      ],
+      "nutrition": {"calories": 440, "protein_g": 22, "carbs_g": 30, "fat_g": 28, "fiber_g": 5},
+      "tags": ["spicy", "popular", "restaurant-style"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Egg Curry",
+      "cuisine": "bengali",
+      "meal_type": "dinner",
+      "diet_type": "eggetarian",
+      "description": "Hard-boiled eggs in a rich onion-tomato gravy with Bengali spices",
+      "prep_time_min": 10,
+      "cook_time_min": 20,
+      "servings": 2,
+      "ingredients": [
+        {"name": "eggs", "quantity": "4", "category": "protein"},
+        {"name": "onion", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "ginger-garlic paste", "quantity": "1 tbsp", "category": "spice"},
+        {"name": "rice", "quantity": "200g", "category": "grain"},
+        {"name": "fresh coriander", "quantity": "2 tbsp", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Hard boil eggs. Peel and make small cuts on surface.",
+        "Fry eggs lightly till golden. Set aside.",
+        "Heat oil, add onion paste. Cook till golden brown.",
+        "Add ginger-garlic paste, tomato puree. Cook 8 min.",
+        "Add turmeric, chilli, cumin powder, salt. Add water.",
+        "Add eggs. Simmer 10 min till gravy thickens.",
+        "Garnish with coriander. Serve with rice."
+      ],
+      "instructions_cook": [
+        "Ande ubaal ke chheel lo. Halke cuts lagao.",
+        "Ande halka bhuno golden hone tak.",
+        "Tel mein pyaaz ka paste bhuno golden hone tak.",
+        "Adrak-lahsun, tamatar puree daalo. 8 min pakao.",
+        "Haldi, mirch, jeera powder, namak daalo. Paani daalo.",
+        "Ande daalo. 10 min pakao gravy gaadhi hone tak.",
+        "Dhaniya se sajao. Chawal ke saath do."
+      ],
+      "nutrition": {"calories": 430, "protein_g": 22, "carbs_g": 48, "fat_g": 16, "fiber_g": 3},
+      "tags": ["protein-rich", "comforting", "traditional"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Curd Rice",
+      "cuisine": "south_indian",
+      "meal_type": "dinner",
+      "diet_type": "vegetarian",
+      "description": "Cool, creamy rice mixed with tempered curd -- perfect summer dinner",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {"name": "rice (cooked)", "quantity": "300g", "category": "grain"},
+        {"name": "curd", "quantity": "200g", "category": "dairy"},
+        {"name": "milk", "quantity": "50ml", "category": "dairy"},
+        {"name": "pomegranate", "quantity": "50g", "category": "other"},
+        {"name": "cucumber", "quantity": "1 small", "category": "vegetable"},
+        {"name": "grapes", "quantity": "50g", "category": "other"}
+      ],
+      "instructions_user": [
+        "Mash cooked rice slightly while warm. Add milk, mix well.",
+        "Let it cool. Add curd, salt. Mix gently.",
+        "Heat oil, add mustard seeds, urad dal, curry leaves, green chilli, ginger.",
+        "Pour tempering over curd rice.",
+        "Add diced cucumber, pomegranate, grapes.",
+        "Serve cold or at room temperature."
+      ],
+      "instructions_cook": [
+        "Pake chawal ko garam mein thoda mash karo. Doodh milao.",
+        "Thanda hone do. Dahi, namak milao.",
+        "Tel mein rai, urad dal, kadi patta, mirch, adrak ka tadka lagao.",
+        "Tadka dahi chawal pe daalo.",
+        "Kheera, anaar, angoor daalo.",
+        "Thanda ya normal temperature pe serve karo."
+      ],
+      "nutrition": {"calories": 320, "protein_g": 10, "carbs_g": 52, "fat_g": 8, "fiber_g": 2},
+      "tags": ["cooling", "probiotic", "light"],
+      "difficulty": "easy"
+    },
+    {
+      "name": "Keema Matar",
+      "cuisine": "north_indian",
+      "meal_type": "dinner",
+      "diet_type": "non_vegetarian",
+      "description": "Minced meat cooked with green peas in aromatic spices",
+      "prep_time_min": 10,
+      "cook_time_min": 25,
+      "servings": 2,
+      "ingredients": [
+        {"name": "chicken keema (mince)", "quantity": "300g", "category": "protein"},
+        {"name": "green peas", "quantity": "100g", "category": "vegetable"},
+        {"name": "onion", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "tomato", "quantity": "2 medium", "category": "vegetable"},
+        {"name": "ginger-garlic paste", "quantity": "1 tbsp", "category": "spice"},
+        {"name": "roti/pav", "quantity": "4", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Heat oil, add cumin seeds, bay leaf, whole spices.",
+        "Add onion, cook till golden. Add ginger-garlic paste.",
+        "Add keema. Cook on high heat, breaking lumps, till browned.",
+        "Add tomato puree, turmeric, chilli, coriander powder. Cook 5 min.",
+        "Add green peas, water. Cover and cook 15 min.",
+        "Add garam masala, garnish with coriander. Serve with roti."
+      ],
+      "instructions_cook": [
+        "Tel mein jeera, tej patta, sabut masale daalo.",
+        "Pyaaz bhuno golden hone tak. Adrak-lahsun daalo.",
+        "Keema daalo. Tez aag pe bhuno, guthliyan todo, brown hone do.",
+        "Tamatar, haldi, mirch, dhaniya powder daalo. 5 min pakao.",
+        "Matar, paani daalo. Dhak ke 15 min pakao.",
+        "Garam masala daalo, dhaniya se sajao. Roti ke saath do."
+      ],
+      "nutrition": {"calories": 450, "protein_g": 35, "carbs_g": 28, "fat_g": 22, "fiber_g": 5},
+      "tags": ["protein-rich", "hearty", "comfort-food"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Pesarattu",
+      "cuisine": "south_indian",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Andhra-style green moong dal dosa, high in protein",
+      "prep_time_min": 10,
+      "cook_time_min": 15,
+      "servings": 2,
+      "ingredients": [
+        {"name": "green moong dal (whole)", "quantity": "200g", "category": "protein"},
+        {"name": "rice", "quantity": "50g", "category": "grain"},
+        {"name": "ginger", "quantity": "1 inch", "category": "vegetable"},
+        {"name": "green chilli", "quantity": "3", "category": "vegetable"},
+        {"name": "onion", "quantity": "1 medium", "category": "vegetable"},
+        {"name": "ginger chutney", "quantity": "50g", "category": "other"}
+      ],
+      "instructions_user": [
+        "Soak moong dal and rice for 4-5 hours.",
+        "Grind with ginger, green chillies, salt to a smooth batter.",
+        "Heat tawa, pour batter, spread thin like dosa.",
+        "Sprinkle chopped onion, press lightly.",
+        "Drizzle oil, cook till crispy on bottom. Fold.",
+        "Serve with ginger chutney or upma."
+      ],
+      "instructions_cook": [
+        "Moong dal aur chawal 4-5 ghante bhigo do.",
+        "Adrak, mirch, namak ke saath pees lo.",
+        "Tawa garam karo, batter failao dosa jaisa.",
+        "Kati pyaaz chhidko, halka daba do.",
+        "Tel lagao, neeche se crispy hone do. Fold karo.",
+        "Adrak chutney ke saath do."
+      ],
+      "nutrition": {"calories": 340, "protein_g": 18, "carbs_g": 50, "fat_g": 6, "fiber_g": 8},
+      "tags": ["high-protein", "healthy", "south-indian"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Vegetable Biryani",
+      "cuisine": "hyderabadi",
+      "meal_type": "lunch",
+      "diet_type": "vegetarian",
+      "description": "Layered fragrant basmati rice with mixed vegetables, saffron and fried onions",
+      "prep_time_min": 25,
+      "cook_time_min": 35,
+      "servings": 2,
+      "ingredients": [
+        {"name": "basmati rice", "quantity": "250g", "category": "grain"},
+        {"name": "mixed vegetables", "quantity": "250g", "category": "vegetable"},
+        {"name": "onion", "quantity": "2 large", "category": "vegetable"},
+        {"name": "curd", "quantity": "100g", "category": "dairy"},
+        {"name": "saffron", "quantity": "pinch", "category": "spice"},
+        {"name": "mint leaves", "quantity": "1 bunch", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Soak rice 30 min. Par-boil with whole spices.",
+        "Fry sliced onions till crispy and golden.",
+        "Marinate vegetables with curd, biryani masala, chilli. Cook partially.",
+        "Layer: veggies, then rice, then birista, mint, saffron milk.",
+        "Seal and cook on dum 20-25 min.",
+        "Serve with raita."
+      ],
+      "instructions_cook": [
+        "Chawal 30 min bhigo ke masale ke saath 70% ubalo.",
+        "Pyaaz ko barfee kaat ke golden brown talo.",
+        "Sabziyon ko dahi, biryani masala mein bhuno.",
+        "Layer lagao: sabzi, chawal, birista, pudina, kesar doodh.",
+        "Seal karke dum pe 20-25 min pakao.",
+        "Raita ke saath do."
+      ],
+      "nutrition": {"calories": 480, "protein_g": 12, "carbs_g": 72, "fat_g": 16, "fiber_g": 6},
+      "tags": ["festive", "aromatic", "one-pot"],
+      "difficulty": "hard"
+    },
+    {
+      "name": "Dal Makhani",
+      "cuisine": "punjabi",
+      "meal_type": "dinner",
+      "diet_type": "vegetarian",
+      "description": "Slow-cooked black lentils in buttery, creamy tomato gravy",
+      "prep_time_min": 15,
+      "cook_time_min": 45,
+      "servings": 2,
+      "ingredients": [
+        {"name": "whole urad dal (black)", "quantity": "200g", "category": "protein"},
+        {"name": "rajma (kidney beans)", "quantity": "50g", "category": "protein"},
+        {"name": "butter", "quantity": "3 tbsp", "category": "dairy"},
+        {"name": "cream", "quantity": "50ml", "category": "dairy"},
+        {"name": "tomato", "quantity": "3 medium", "category": "vegetable"},
+        {"name": "naan/roti", "quantity": "4", "category": "grain"}
+      ],
+      "instructions_user": [
+        "Soak urad dal and rajma overnight. Pressure cook 6-7 whistles.",
+        "Melt butter, add cumin, ginger-garlic paste.",
+        "Add tomato puree, chilli powder, salt. Cook 10 min.",
+        "Add cooked dal. Simmer on very low heat 25-30 min, stirring often.",
+        "Add cream, butter, garam masala, kasuri methi.",
+        "The longer it simmers, the better it tastes. Serve with naan."
+      ],
+      "instructions_cook": [
+        "Urad dal aur rajma raat bhar bhigo ke 6-7 seeti pressure cook karo.",
+        "Makhan mein jeera, adrak-lahsun bhuno.",
+        "Tamatar puree, mirch, namak daalo. 10 min pakao.",
+        "Pakki dal daalo. Bahut dheemi aag pe 25-30 min pakao, hilate raho.",
+        "Cream, makhan, garam masala, kasuri methi daalo.",
+        "Jitna dheere pakao utna achha. Naan ke saath do."
+      ],
+      "nutrition": {"calories": 520, "protein_g": 22, "carbs_g": 52, "fat_g": 26, "fiber_g": 12},
+      "tags": ["slow-cooked", "rich", "restaurant-style"],
+      "difficulty": "medium"
+    },
+    {
+      "name": "Ragi Dosa",
+      "cuisine": "south_indian",
+      "meal_type": "breakfast",
+      "diet_type": "vegetarian",
+      "description": "Nutritious finger millet dosa -- high in calcium and iron",
+      "prep_time_min": 5,
+      "cook_time_min": 10,
+      "servings": 2,
+      "ingredients": [
+        {"name": "ragi flour", "quantity": "150g", "category": "grain"},
+        {"name": "rice flour", "quantity": "50g", "category": "grain"},
+        {"name": "onion", "quantity": "1 small", "category": "vegetable"},
+        {"name": "cumin seeds", "quantity": "1 tsp", "category": "spice"},
+        {"name": "coconut chutney", "quantity": "100g", "category": "other"},
+        {"name": "green chilli", "quantity": "2", "category": "vegetable"}
+      ],
+      "instructions_user": [
+        "Mix ragi flour, rice flour, finely chopped onion, cumin, green chilli, salt.",
+        "Add water to make thin batter (thinner than regular dosa batter).",
+        "Heat tawa. Pour batter, spread quickly in circular motion.",
+        "Drizzle oil around edges. Cook till bottom is crispy.",
+        "Fold and serve with coconut chutney."
+      ],
+      "instructions_cook": [
+        "Ragi aata, chawal ka aata, pyaaz, jeera, mirch, namak milao.",
+        "Paani daal ke patla batter banao.",
+        "Tawa garam karo. Batter failao gol gol.",
+        "Kinaron pe tel lagao. Neeche se crispy hone do.",
+        "Fold karo. Nariyal chutney ke saath do."
+      ],
+      "nutrition": {"calories": 280, "protein_g": 8, "carbs_g": 48, "fat_g": 6, "fiber_g": 5},
+      "tags": ["calcium-rich", "iron-rich", "healthy", "millet"],
+      "difficulty": "easy"
+    }
+  ]
+}
