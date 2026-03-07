@@ -1,0 +1,9 @@
+{
+  "name": "@mealmate/db",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "migrate": "psql $DATABASE_URL -f init.sql",
+    "seed": "psql $DATABASE_URL -f seeds/ingredient_categories.sql"
+  }
+}
