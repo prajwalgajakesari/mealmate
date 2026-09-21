@@ -29,8 +29,8 @@ jobs:
       - name: Type check (TypeScript services)
         run: pnpm turbo type-check --filter='./services/user-service' --filter='./services/order-orchestrator' --filter='./apps/whatsapp-bot' --filter='./packages/shared-types'
 
-      - name: Lint (TypeScript)
-        run: pnpm turbo lint --filter='./services/user-service' --filter='./services/order-orchestrator'
+      # Lint step disabled: no service installs eslint yet, so `pnpm turbo lint` fails with
+      # `eslint: not found`. Re-enable once eslint and a config are added to the services.
 
   test-python-services:
     name: Test Python Services
@@ -78,8 +78,9 @@ jobs:
           DATABASE_URL: postgresql://mealmate:mealmate_test@localhost:5432/mealmate_test
           REDIS_URL: redis://localhost:6379/0
           ANTHROPIC_API_KEY: test-key
-        # pytest exit code 5 means no tests were collected; allow it until real tests exist
-        run: pytest tests/ -v --tb=short || [ $? -eq 5 ]
+        # No test suite yet: skip when tests/ is missing, and tolerate pytest exit 5 (no tests collected)
+        run: |
+          if [ -d tests ]; then pytest tests/ -v --tb=short || [ $? -eq 5 ]; else echo "no tests/ directory yet, skipping"; fi
 
       - name: Install Pantry Tracker dependencies
         working-directory: services/pantry-tracker
@@ -90,8 +91,9 @@ jobs:
         env:
           DATABASE_URL: postgresql://mealmate:mealmate_test@localhost:5432/mealmate_test
           REDIS_URL: redis://localhost:6379/1
-        # pytest exit code 5 means no tests were collected; allow it until real tests exist
-        run: pytest tests/ -v --tb=short || [ $? -eq 5 ]
+        # No test suite yet: skip when tests/ is missing, and tolerate pytest exit 5 (no tests collected)
+        run: |
+          if [ -d tests ]; then pytest tests/ -v --tb=short || [ $? -eq 5 ]; else echo "no tests/ directory yet, skipping"; fi
 
   test-node-services:
     name: Test Node Services
