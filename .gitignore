@@ -9,6 +9,9 @@ venv/
 .env
 .env.local
 .env.*.local
+# All other environment file variants, except the tracked example
+.env*
+!.env.example
 *.log
 coverage/
 .turbo/
