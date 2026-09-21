@@ -232,6 +232,7 @@ This is an early-stage MVP. The service boundaries, data model, and client flows
 - **Grocery ordering is mocked.** The Swiggy Instamart and Blinkit adapters return realistic mock products and carts. No live orders are placed. The Zepto adapter is not implemented.
 - **The web dashboard shows demo data.** Its API client is wired, but the dashboard pages still render hardcoded meals and nutrition.
 - **Lint is not wired up.** The Node services declare an `eslint src/` script but do not install eslint, so the CI lint step is disabled until eslint and a config are added.
+- **Docker images do not build yet.** The Node Dockerfiles copy `../../packages/shared-types` from outside the build context and run `npm ci` inside a pnpm workspace with no lockfile. The CI image-build job is disabled until they are rewritten for the monorepo.
 - **Tests are placeholders.** The `tests` directories are empty and the Node services have no `test` script yet, so the CI test jobs do not exercise real tests.
 - **The mobile app falls back to a development user ID** when no auth session exists.
 
